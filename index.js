@@ -26,6 +26,8 @@ function currentLine(line) {
       var newSpot = `${i+1}. ${line[i]}`
       currentLine.push([newSpot])
     }
+    var spreadLine = "The line is currently:"
+    var order = currentLine
     return currentLine
   }
   else {
