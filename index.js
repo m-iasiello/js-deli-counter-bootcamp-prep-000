@@ -27,8 +27,9 @@ function currentLine(line) {
       currentLine.push([newSpot])
     }
     var spreadLine = "The line is currently:"
-    var order = currentLine
-    return currentLine
+    var order = currentLine.toString()
+    var completeLine = spreadLine + order
+    return completeLine
   }
   else {
     var currrentLine = "The line is currently empty."
