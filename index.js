@@ -21,8 +21,11 @@ function nowServing(line) {
 
 function currentLine(line) {
   if(line.length > 0) {
-    var i = 0
-    
-    currentLine = `The line is currently: 
+    var currentLine = "The line is currently:"
+    for (var i =0; i < line.length; i++) {
+      var newSpot = `${i+1}. ${line[i]},`
+      currentLine.push([newSpot])
+    }
+    return c
   }
 }
