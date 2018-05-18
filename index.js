@@ -21,6 +21,8 @@ function nowServing(line) {
 
 function currentLine(line) {
   if(line.length > 0) {
+    var i = 0
+    
     currentLine = `The line is currently: 
   }
 }
