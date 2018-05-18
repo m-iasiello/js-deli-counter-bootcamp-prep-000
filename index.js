@@ -26,6 +26,9 @@ function currentLine(line) {
       var newSpot = `${i+1}. ${line[i]},`
       currentLine.push([newSpot])
     }
-    return c
+    return currentLine
+  }
+  else {
+    var currrentLine = "The line is currently empty."
   }
 }
