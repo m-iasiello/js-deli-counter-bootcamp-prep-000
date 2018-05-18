@@ -20,7 +20,7 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  if(line.length > 0) {
+  if(line.length >= 1) {
     var currentLine = []
     for (var i =0; i < line.length; i++) {
       var newSpot = ` ${i+1}. ${line[i]}`
