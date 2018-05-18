@@ -30,5 +30,6 @@ function currentLine(line) {
   }
   else {
     var currrentLine = "The line is currently empty."
+    return currentLine
   }
 }
