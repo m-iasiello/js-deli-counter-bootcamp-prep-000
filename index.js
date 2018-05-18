@@ -21,9 +21,9 @@ function nowServing(line) {
 
 function currentLine(line) {
   if(line.length > 0) {
-    var currentLine = "The line is currently:"
+    var currentLine = []
     for (var i =0; i < line.length; i++) {
-      var newSpot = `${i+1}. ${line[i]},`
+      var newSpot = `${i+1}. ${line[i]}`
       currentLine.push([newSpot])
     }
     return currentLine
